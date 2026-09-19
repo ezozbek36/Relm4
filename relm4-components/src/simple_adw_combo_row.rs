@@ -5,7 +5,7 @@ use std::fmt::Debug;
 
 use relm4::{Component, ComponentParts, ComponentSender, adw};
 
-use adw::gtk::{StringList, glib::signal::SignalHandlerId};
+use adw::gtk::{StringList, glib::signal::SignalHandlerId, prelude::ObjectExt};
 use adw::prelude::ComboRowExt;
 
 #[derive(Debug, Clone, PartialEq, Eq)]
